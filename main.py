@@ -38,7 +38,7 @@ def set_settings():
             print("ERROR! Please try again and type in either,'y' or 'n for 'yes' or 'no'")
             continue
 
-        has_numbers = True if has_numbers == "y" else False
+        has_numbers = has_numbers == "y"
         break
 
     while True:
@@ -47,7 +47,7 @@ def set_settings():
             print("ERROR! Please try again and type in either, 'y' or 'n' for 'yes' or 'no'")
             continue
 
-        has_special_characters = True if has_special_characters == "y" else False
+        has_special_characters = has_special_characters == "y"
         break
 
 
